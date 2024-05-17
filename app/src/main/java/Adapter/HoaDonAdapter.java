@@ -5,7 +5,6 @@ import android.app.Dialog;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
-import android.graphics.Point;
 import android.graphics.drawable.ColorDrawable;
 import android.util.Log;
 import android.view.Gravity;
@@ -17,7 +16,6 @@ import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.DatePicker;
-import android.widget.EditText;
 import android.widget.Filter;
 import android.widget.Filterable;
 import android.widget.ImageView;
@@ -32,16 +30,11 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
-import DAO.HoaDonDao;
-import DAO.HopDongDAO;
-import DAO.KhachThueDAO;
-import DAO.PhongDAO;
+import HopDong.HoaDonDao;
+import HopDong.PhongDAO;
 import Model.HoaDon;
-import Model.HopDong;
-import Model.KhachThue;
 import Model.Phong;
 import longvtph16016.poly.appquanlyphongtro.R;
-import longvtph16016.poly.appquanlyphongtro.interfaceDeleteClickdistioner;
 
 public class HoaDonAdapter extends BaseAdapter implements Filterable {
     private Context context;

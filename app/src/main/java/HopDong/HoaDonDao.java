@@ -1,4 +1,4 @@
-package DAO;
+package HopDong;
 
 import android.annotation.SuppressLint;
 import android.content.ContentValues;
@@ -11,7 +11,6 @@ import java.util.List;
 
 import Database.DbHelper;
 import Model.HoaDon;
-import Model.Phong;
 
 public class HoaDonDao {
     private static SQLiteDatabase db;

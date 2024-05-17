@@ -18,21 +18,26 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#FD5151"
             android:gravity="center"
             android:padding="15sp"
             android:text="Doanh Thu Năm"
-            android:textColor="@android:color/black"
-            android:textSize="25sp" />
+            android:textColor="@color/colorDividerView"
+            android:textSize="25sp"
+            android:textStyle="bold" />
 
         <TextView
-            android:layout_marginLeft="10sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
             android:gravity="start"
-            android:text="Chọn Năm" />
+            android:text="Chọn Năm"
+            android:textColor="#F32F2F"
+            android:textStyle="bold|italic" />
         <Spinner
             android:id="@+id/id_spinner_namDt"
             android:layout_width="match_parent"
@@ -48,12 +53,15 @@
             android:layout_marginTop="20sp"
             android:backgroundTint="@color/black"
             android:text="Xem" />
+
         <TextView
             android:id="@+id/tvdoanhthu"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="Doanh thu theo Năm:"
+            android:textColor="#DA0000"
             android:textSize="24sp"
-            android:layout_height="wrap_content"/>
+            android:textStyle="bold|italic" />
         <ListView
             android:id="@+id/listDoanhThunam"
             android:layout_marginTop="10dp"

@@ -4,14 +4,16 @@
     android:orientation="vertical"
     android:background="@color/white"
     android:layout_height="match_parent">
+
     <TextView
         android:layout_width="match_parent"
-        android:text="THÔNG TIN PHÒNG"
+        android:layout_height="wrap_content"
+        android:background="#F44336"
         android:gravity="center"
-        android:textStyle="bold"
-        android:background="@color/yellow"
+        android:text="THÔNG TIN PHÒNG"
+        android:textColor="#E6DADA"
         android:textSize="30dp"
-        android:layout_height="wrap_content"/>
+        android:textStyle="bold" />
     <TextView
         android:paddingLeft="30dp"
         android:layout_width="match_parent"

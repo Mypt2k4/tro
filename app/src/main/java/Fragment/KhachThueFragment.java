@@ -1,7 +1,5 @@
 package Fragment;
 
-import android.app.AlertDialog;
-import android.app.Dialog;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -9,7 +7,6 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.widget.SearchView;
 import androidx.fragment.app.Fragment;
 
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -24,7 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import Adapter.KhachThueAdapter;
-import DAO.KhachThueDAO;
+import HopDong.KhachThueDAO;
 import Model.KhachThue;
 import longvtph16016.poly.appquanlyphongtro.R;
 

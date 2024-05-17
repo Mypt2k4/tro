@@ -1,19 +1,16 @@
-package DAO;
+package HopDong;
 
 import android.annotation.SuppressLint;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.widget.Button;
-import android.widget.EditText;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import Database.DbHelper;
 import Model.HopDong;
-import Model.KhachThue;
 
 public class HopDongDAO {
     private SQLiteDatabase db;

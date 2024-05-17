@@ -8,7 +8,6 @@ import android.content.DialogInterface;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -29,19 +28,17 @@ import androidx.cardview.widget.CardView;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
-import DAO.HopDongDAO;
-import DAO.KhachThueDAO;
-import DAO.PhongDAO;
+import HopDong.HopDongDAO;
+import HopDong.KhachThueDAO;
+import HopDong.PhongDAO;
 import Model.HopDong;
 import Model.KhachThue;
 import Model.Phong;
 import longvtph16016.poly.appquanlyphongtro.R;
-import longvtph16016.poly.appquanlyphongtro.interfaceDeleteClickdistioner;
 
 public class HopDongAdapter extends BaseAdapter implements Filterable {
     private Context context;

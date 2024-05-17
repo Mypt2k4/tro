@@ -32,8 +32,8 @@ import java.util.Date;
 import java.util.List;
 
 import Adapter.PhongAdapter;
-import DAO.HopDongDAO;
-import DAO.PhongDAO;
+import HopDong.HopDongDAO;
+import HopDong.PhongDAO;
 import Model.HopDong;
 import Model.Phong;
 import longvtph16016.poly.appquanlyphongtro.R;

@@ -2,14 +2,16 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <TextView
+        android:id="@+id/tvTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sua Khach Thue"
-        android:textSize="36dp"
         android:gravity="center"
-        android:id="@+id/tvTitle"
-        android:textStyle="bold"/>
+        android:text="Sửa Khách Thuê"
+        android:textColor="#0C0C0C"
+        android:textSize="36dp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/edtHoTen"
@@ -18,40 +20,51 @@
         android:layout_below="@id/tvTitle"
         android:layout_marginTop="40dp"
         android:background="#A59AE8"
-        android:hint="Họ Tên" />
+        android:paddingLeft="20dp"
+        android:hint="Họ Tên:" />
 
     <EditText
         android:id="@+id/edtSDT"
+        android:paddingLeft="20dp"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_below="@id/edtHoTen"
         android:layout_marginTop="40dp"
         android:background="#A59AE8"
-        android:hint="Số Điện Thoại" />
+        android:hint="Số Điện Thoại:" />
 
     <EditText
         android:id="@+id/edtCCCD"
+        android:paddingLeft="20dp"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_below="@id/edtSDT"
         android:layout_marginTop="40dp"
         android:background="#A59AE8"
-        android:hint="CCCD" />
+        android:hint="CCCD:" />
+
     <Button
+        android:id="@+id/btnThemKhachThue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/edtCCCD"
+        android:layout_margin="40dp"
+        android:backgroundTint="#E86565"
         android:text="Thêm"
-        android:layout_margin="40dp"
-        android:id="@+id/btnThemKhachThue"/>
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
     <Button
+        android:id="@+id/btnhuyThemKhachThue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/edtCCCD"
-        android:layout_margin="40dp"
         android:layout_alignParentRight="true"
+        android:layout_margin="40dp"
+        android:backgroundTint="#E86565"
         android:text="Hủy"
-        android:id="@+id/btnhuyThemKhachThue"/>
+        android:textSize="20sp"
+        android:textStyle="bold" />
 </RelativeLayout>
 <!--    <?xml version="1.0" encoding="utf-8"?>-->
 <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->

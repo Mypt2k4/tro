@@ -10,13 +10,14 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Tạo hợp đồng"
-        android:textSize="36dp"
-        android:textColor="@color/black"
-        android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Tạo hợp đồng"
+            android:textColor="@color/black"
+            android:textSize="36dp"
+            android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"

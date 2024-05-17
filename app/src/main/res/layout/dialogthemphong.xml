@@ -11,61 +11,69 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#FB6565"
+        android:gravity="center"
+        android:radius="20dp"
         android:text="Thêm Phòng"
+        android:textColor="@color/colorDividerView"
         android:textSize="36dp"
-        android:textColor="@color/black"
-        android:background="@color/yellow"
-        android:gravity="center"/>
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/edt_themsophong"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:hint="Số Phòng"
-        android:textColor="@color/white"
-        android:background="@drawable/bg_white_conor_10_border_gary"
         android:layout_marginTop="20dp"
-        />
+        android:paddingLeft="20dp"
+        android:background="@drawable/bg_white_conor_10_border_gary"
+        android:hint="Số Phòng"
+        android:textColor="@color/black"
+
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/edt_themgiaphong"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_white_conor_10_border_gary"
         android:hint="Giá Phòng"
-        android:textColor="@color/white"
-        android:background="@drawable/bg_white_conor_10_border_gary"
-        android:layout_marginTop="20dp"
-        />
-
-    <EditText
-        android:id="@+id/edt_themgiadien"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:hint="Giá Điện"
-        android:textColor="@color/white"
-        android:background="@drawable/bg_white_conor_10_border_gary"
-        android:layout_marginTop="20dp"
-        />
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:paddingLeft="20dp"/>
 
     <EditText
         android:id="@+id/edt_themgianuoc"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:hint="Giá Nước"
-        android:textColor="@color/white"
-        android:background="@drawable/bg_white_conor_10_border_gary"
         android:layout_marginTop="20dp"
-        />
+        android:background="@drawable/bg_white_conor_10_border_gary"
+        android:hint="Giá Nước"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:paddingLeft="20dp"/>
 
     <EditText
         android:id="@+id/edt_themgiawifi"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:hint="Gia Wifi"
-        android:textColor="@color/white"
-        android:background="@drawable/bg_white_conor_10_border_gary"
         android:layout_marginTop="20dp"
-        />
+        android:background="@drawable/bg_white_conor_10_border_gary"
+        android:hint="Giá Wifi"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edt_themgiadien"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_white_conor_10_border_gary"
+        android:hint="Giá Điện"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:paddingLeft="20dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -78,21 +86,21 @@
             android:id="@+id/btn_them_phong"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/bg_white_conor_10_border_gary"
-            android:text="Thêm"
             android:layout_weight="2"
-            android:textColor="@color/black"
-             />
+            android:backgroundTint="#E45C5C"
+            android:text="Thêm"
+            android:textColor="@color/colorDividerView"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/btn_huy_phong"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/bg_white_conor_10_border_gary"
-            android:text="Hủy"
             android:layout_weight="2"
-            android:textColor="@color/black"
-             />
+            android:text="Hủy"
+            android:backgroundTint="#E45C5C"
+            android:textColor="@color/colorDividerView"
+            android:textSize="20sp" />
     </LinearLayout>
 
 

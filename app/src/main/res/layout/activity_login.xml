@@ -12,11 +12,12 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"
-        android:textStyle="bold"
         android:gravity="center"
+        android:padding="20dp"
+        android:text="Login"
+        android:textColor="#121111"
         android:textSize="36dp"
-        android:padding="20dp"/>
+        android:textStyle="bold" />
 
 
 <!--    <com.google.android.material.textfield.TextInputLayout-->
@@ -40,11 +41,13 @@
         app:errorEnabled="true"
         app:counterMaxLength="15"
         app:counterEnabled="true">
+
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="User"
-            android:inputType="textPersonName"/>
+            android:inputType="textPersonName"
+            android:textSize="20sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -55,11 +58,13 @@
         android:layout_marginTop="6dp"
         app:errorEnabled="true"
         app:passwordToggleEnabled="true">
+
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="PassWord"
-            android:inputType="textPassword"/>
+            android:inputType="textPassword"
+            android:textSize="20sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
@@ -68,13 +73,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="Login"/>
+        android:backgroundTint="#103AD1"
+        android:text="Login" />
 
-<!--    <TextView-->
-<!--        android:id="@+id/tv_sing_up"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="20dp"-->
-<!--        android:textColor="@color/white"-->
-<!--        android:text="Do you want to sign up for an account ?"/>-->
 </LinearLayout>

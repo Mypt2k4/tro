@@ -10,9 +10,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sua Hop Dong"
-        android:textSize="36dp"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:text="Sửa Hợp Đồng"
+        android:textColor="#090707"
+        android:textSize="36dp" />
     
     <EditText
         android:id="@+id/edt_ngay_bat_dau"

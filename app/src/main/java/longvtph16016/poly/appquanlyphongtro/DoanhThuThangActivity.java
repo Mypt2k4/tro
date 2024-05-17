@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import Adapter.HoaDonAdapter;
-import DAO.HoaDonDao;
+import HopDong.HoaDonDao;
 import Model.HoaDon;
 
 public class DoanhThuThangActivity extends AppCompatActivity {
